@@ -1,0 +1,54 @@
+[theme]
+base = "light"
+
+primaryColor = "#5B6FD6"
+backgroundColor = "#FBFCFF"
+secondaryBackgroundColor = "#EEF2FC"
+textColor = "#1F2A44"
+linkColor = "#3C62C8"
+borderColor = "#D6DEF2"
+codeBackgroundColor = "#F3F6FD"
+codeTextColor = "#2A3558"
+dataframeBorderColor = "#D6DEF2"
+dataframeHeaderBackgroundColor = "#EEF2FC"
+
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "12px"
+buttonRadius = "12px"
+linkUnderline = false
+
+font = "Cairo:https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap"
+headingFont = "Cairo:https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;800&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+
+baseFontSize = 17
+baseFontWeight = 400
+codeFontSize = "0.85rem"
+headingFontSizes = ["34px", "27px", "22px", "19px", "17px", "15px"]
+headingFontWeights = [800, 700, 700, 600, 600, 600]
+
+redColor = "#E05C6E"
+orangeColor = "#EF9036"
+yellowColor = "#E8C04B"
+greenColor = "#2FA98C"
+blueColor = "#4A89DC"
+violetColor = "#8A6FD1"
+grayColor = "#6B7694"
+
+chartCategoricalColors = ["#5B6FD6", "#2FA98C", "#EF9036", "#D7568C", "#8A6FD1", "#4ABEDC", "#9CCB5A"]
+chartSequentialColors = ["#F6F9FE", "#E4ECFB", "#CFDDF7", "#B5CAF1", "#97B4E9", "#7A9CE0", "#6183D4", "#4C6AC2", "#3A52A5", "#2A3B7E"]
+
+[theme.sidebar]
+backgroundColor = "#F3F7FF"
+secondaryBackgroundColor = "#E6EDFB"
+codeBackgroundColor = "#E6EDFB"
+textColor = "#24305A"
+borderColor = "#D6DEF2"
+primaryColor = "#5B6FD6"
+
+[server]
+runOnSave = true
+
+[browser]
+gatherUsageStats = false
